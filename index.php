@@ -15,11 +15,18 @@
 // echo "\n subt: \t".$c;
 
 // Coparison Operators
-$x = 5;
-$y = 5;
-var_dump($x == $y);
+// $x = 5;
+// $y = 5;
+// var_dump($x == $y);
 
 
+// if else if statements
+$age = 18;
+
+if($age >= 18)
+if($age >= 10){
+    echo "you can't vote";
+}
 
 
 

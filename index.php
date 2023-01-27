@@ -24,8 +24,12 @@
 $age = 18;
 
 if($age >= 18)
-if($age >= 10){
+if($age >= 19){
     echo "you can't vote";
+    echo "\n Testing";
+}
+else{
+    echo "Yes you can vote";
 }
 
 

@@ -21,16 +21,30 @@
 
 
 // if else if statements
-$age = 18;
+$age = 15;
 
-if($age >= 18)
-if($age >= 19){
-    echo "you can't vote";
-    echo "\n Testing";
+// if($age >= 18)
+// if($age >= 19){
+//     echo "you can't vote";
+//     echo "\n Testing";
+// }
+// else{
+//     echo "Yes you can vote";
+
+if($age >= 18){
+    echo "you can vote";
 }
-else{
-    echo "Yes you can vote";
+elseif($age == 17){
+    echo "you can not vote";
 }
+elseif($age == 16){
+    echo "you can not vote";
+}
+else
+{
+    echo "Your are under age";
+}
+
 
 
 

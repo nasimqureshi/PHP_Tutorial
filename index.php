@@ -3,5 +3,5 @@
 $firstName = "Nasim";
 $lastName = " Qureshi";
 
-echo $firstName . $lastName" ."$ how are you?"
+echo $firstName . $lastName ." how are you?"
 ?>
